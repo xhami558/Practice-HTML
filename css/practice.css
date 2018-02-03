@@ -1,0 +1,26 @@
+div{
+  border: 10px red;
+  height: 100px;
+  width: 200px;
+  margin: 10px auto 20px auto;
+  background-color: blue;
+  font-family: sans-serif;
+
+}
+.primary{
+  background-color: red;
+}
+.primary.secondary{
+  background-color: yellow;
+}
+#special{
+  background-color: green;
+}
+.parent-div{
+  background-color: brown;
+  height: auto;
+  margin: auto;
+}
+.parent-div div{
+  background-color: cyan;
+}

@@ -1,0 +1,32 @@
+
+div{
+  height: 50px;
+  width: 100px;
+  border: 2px solid red;
+  background-color: purple;
+  margin: 30px auto 20px auto;
+  padding: 20px;
+  font-family: monospace;
+}
+#special{
+  background-color: skyblue;
+}
+.one-class.another-class{
+  background-color: blue;
+}
+.one-class{
+  background-color: yellow;
+}
+.one-class.another-class{
+  background-color: pink;
+}
+.parent-div{
+  background-color: brown;
+  margin: auto;
+  width: 10%;
+  border-color: transparent;
+  height: auto;
+}
+.parent-div div{
+  background-color: cyan;
+}
